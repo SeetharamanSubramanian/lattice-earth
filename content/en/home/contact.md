@@ -1,6 +1,6 @@
 +++
 widget = "contact_form"
-title = "Contact me" 
+title = "Contact us"
 
 # Uncomment the following line and widget will NOT be displayed
 # hidden = true
@@ -9,13 +9,13 @@ title = "Contact me"
 # standard forms.
 #
 # Form handler
-# action = "/contact_handler.php"
+action = "/contact_handler.php"
 # Form submit method
-# method = "GET" # Default is POST
+method = "POST" # Default is POST
 
 # For Netlify form
 #
-netlify = true
+netlify = false
 
 # Add a contact via email button if your email
 # is configured in the config file of your website.
@@ -51,9 +51,8 @@ type = "textarea"
 # pattern is not supported on textarea
 name = "message"
 placeholder = "Your message..."
-required = true
+required = false
 
 +++
 
-Need help to open a fast-food ?
-Let’s talk about it !
+Excited to solve climate change? Get in touch!
